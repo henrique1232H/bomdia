@@ -30,10 +30,10 @@ iSee();
     console.log(pegandoOValor)
 
     pegandoOValor.addEventListener("click", (evento) => {
-      evento.preventDefault()
+      evento.preventDefault();
       
 
-      alert("hello")
+      alert("hello");
     })
 
   }
