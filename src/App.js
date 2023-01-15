@@ -3,23 +3,49 @@ import './App.css';
 
 export default function teste() {
 
-  const iSee = () => {
+ const iSee = () => {
 
+    const texto = "Arroz";
 
-
-    const button = document.querySelector("button")
+    const button = document.querySelector("button");
 
     button.addEventListener("click", (evento) => {
       evento.preventDefault();
-
-      alert("hello");
+      document.body.innerHTML += `${texto}`;
+      alert("hello world");
     })
 
-    return <h1>agora</h1>
+ }
+
+iSee();
+
+ const color = () => {
+     document.body.style.background = "#2A73D7";
+   }
+
+  color();
+
+  const aAlert = () => {
+    const pegandoOValor = document.querySelector("a");
+    console.log(pegandoOValor)
+
+    pegandoOValor.addEventListener("click", (evento) => {
+      evento.preventDefault()
+      
+
+      alert("hello")
+    })
 
   }
 
+  aAlert();
 
-  return iSee()
+  return (
+      <div>
+
+        <h1>Hello World!</h1>
+
+      </div>
+  )
 }
 
