@@ -40,12 +40,18 @@ iSee();
 
   aAlert();
 
+  const showP = () => {
+    const inputP = document.querySelector("p");
+
+    inputP.innerHTML = "hello"
+  }
+
+  showP()
+
   return (
-      <div>
-
-        <h1>Hello World!</h1>
-
-      </div>
+     <div>
+        <h1>hello</h1>
+     </div>
   )
 }
 
