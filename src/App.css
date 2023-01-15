@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -6,6 +12,11 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 2rem 1.6rem;
+    color: #fff;
+    background: linear-gradient(rgb(0,0,0), blue);
+    box-shadow: 0.5rem 0.3rem 10rem 1rem black;
 }
 
 aside nav ul {
@@ -20,6 +31,7 @@ aside nav ul li {
 a {
     font-size: 1rem;
     text-decoration: none;
+    color: #fff
 }
 
 button {
