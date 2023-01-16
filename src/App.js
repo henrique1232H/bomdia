@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 export default function teste() {
 
  
@@ -15,12 +16,11 @@ export default function teste() {
     const pegandoOValor = document.querySelector("a");
     console.log(pegandoOValor)
 
-    pegandoOValor.addEventListener("click", (evento) => {
+   pegandoOValor.addEventListener("click", (evento) => {
       evento.preventDefault();
-      
 
-      alert("hello");
-    })
+      alert("BOLSONARO")
+   })
 
   }
 
@@ -52,9 +52,7 @@ export default function teste() {
 iSee();
 
   return (
-     <div>
-        <h1>hello</h1>
-     </div>
+    <h1>teste</h1>
   )
 }
 
